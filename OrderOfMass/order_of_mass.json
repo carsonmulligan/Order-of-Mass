@@ -1,0 +1,392 @@
+{
+    "orderOfMass": {
+      "title": "Basic Texts for the Roman Catholic Eucharist – THE ORDER OF MASS",
+      "notes": "This text is based on the third edition of the Missale Romanum, with the official 2010 English translation by ICEL. It is presented here in JSON format for reference. Some sections (such as the presidential prayers, the readings, full rubrics, etc.) are omitted in the source text, and thus do not appear here. For further details, see the references at the end.",
+      "structureOverview": {
+        "basicStructure": [
+          "Introductory Rites",
+          "Liturgy of the Word (Biblical Readings, Homily, Creed, Intercessions)",
+          "Liturgy of the Eucharist (Preparation, Eucharistic Prayer, Communion Rite)",
+          "Concluding Rites"
+        ]
+      },
+      "Introductory Rites": {
+        "rubricNote": "[stand]",
+        "Entrance Procession": "After the people have assembled, a Gathering Song or Entrance Antiphon is sung or recited as the priest and the ministers enter the church and process to the altar; after reverencing the altar, and sometimes also using incense, they go to their chairs.",
+        "LiturgicalGreeting": {
+          "signOfCross": {
+            "priest": "In the name of the Father, and of the Son, and of the Holy Spirit.",
+            "peopleResponse": "Amen."
+          },
+          "greetingOptions": [
+            {
+              "option": "A",
+              "priest": "The grace of our Lord Jesus Christ, and the love of God, and the communion of the Holy Spirit be with you all.",
+              "peopleResponse": "And with your spirit."
+            },
+            {
+              "option": "B",
+              "priest": "Grace to you and peace from God our Father and the Lord Jesus Christ.",
+              "peopleResponse": "And with your spirit."
+            },
+            {
+              "option": "C",
+              "priest": "The Lord be with you. [or Bishop: Peace be with you.]",
+              "peopleResponse": "And with your spirit."
+            }
+          ],
+          "introNote": "The priest or another minister may then briefly introduce the Mass of the day, saying something about the readings, the feast, and/or the special occasion being celebrated."
+        },
+        "PenitentialAct": {
+          "invitation": "Priest: Brethren (brothers and sisters), let us acknowledge our sins, and so prepare ourselves to celebrate the sacred mysteries.",
+          "options": [
+            {
+              "option": "A",
+              "peopleAll": [
+                "I confess to almighty God and to you, my brothers and sisters, that I have greatly sinned, in my thoughts and in my words, in what I have done and in what I have failed to do,",
+                "(strike breast) through my fault, through my fault, through my most grievous fault;",
+                "therefore I ask blessed Mary ever-Virgin, all the Angels and Saints, and you, my brothers and sisters, to pray for me to the Lord our God."
+              ],
+              "priestConcluding": "May almighty God have mercy on us, forgive us our sins, and bring us to everlasting life.",
+              "peopleResponse": "Amen."
+            },
+            {
+              "option": "B",
+              "dialogue": [
+                {
+                  "priest": "Have mercy on us, O Lord.",
+                  "all": "For we have sinned against you."
+                },
+                {
+                  "priest": "Show us, O Lord, your mercy.",
+                  "all": "And grant us your salvation."
+                }
+              ],
+              "priestConcluding": "May almighty God have mercy on us, forgive us our sins, and bring us to everlasting life.",
+              "peopleResponse": "Amen."
+            },
+            {
+              "option": "C",
+              "sampleInvocations": [
+                {
+                  "minister": "You raise the dead to life in the Spirit: Lord, have mercy. or Kyrie, eleison.",
+                  "peopleResponse": "Lord, have mercy. or Kyrie, eleison."
+                },
+                {
+                  "minister": "You bring pardon and peace to the sinner: Christ, have mercy. or Christe, eleison.",
+                  "peopleResponse": "Christ, have mercy. or Christe, eleison."
+                },
+                {
+                  "minister": "You bring light to those in darkness: Lord, have mercy. or Kyrie, eleison.",
+                  "peopleResponse": "Lord, have mercy. or Kyrie, eleison."
+                }
+              ],
+              "priestConcluding": "May almighty God have mercy on us, forgive us our sins, and bring us to everlasting life.",
+              "peopleResponse": "Amen."
+            }
+          ]
+        },
+        "Kyrie": {
+          "note": "The following acclamations are sung or recited, either in English or in Greek, unless they have already been used, as in option C above.",
+          "dialogueEnglish": [
+            "Priest: Lord, have mercy.  All: Lord, have mercy.",
+            "Priest: Christ, have mercy.  All: Christ, have mercy.",
+            "Priest: Lord, have mercy.  All: Lord, have mercy."
+          ],
+          "dialogueGreek": [
+            "Priest: Kyrie, eleison.  All: Kyrie, eleison.",
+            "Priest: Christe, eleison.  All: Christe, eleison.",
+            "Priest: Kyrie, eleison.  All: Kyrie, eleison."
+          ]
+        },
+        "RiteForBlessingAndSprinklingOfWater": {
+          "rubricNote": "On Sundays, especially during the Easter Season, this rite may replace the usual Penitential Rite at the beginning of Mass; afterward, continue with the Gloria (on most Sundays and solemnities) or with the Collect (during Advent/Lent, or weekdays).",
+          "priestIntroduction": "Dear brothers and sisters, let us humbly beseech the Lord our God to bless this water he has created...",
+          "blessingOptions": [
+            {
+              "option": "A",
+              "text": [
+                "Priest: Almighty ever-living God, who willed that through water, the fountain of life...",
+                "Renew the living spring of your grace within us and grant that by this water we may be defended from all ills...",
+                "Through Christ our Lord.",
+                "All: Amen."
+              ]
+            },
+            {
+              "option": "B",
+              "text": [
+                "Priest: Almighty Lord and God, who are the source and origin of all life, whether of body or soul...",
+                "Grant, O Lord, in your mercy, that living waters may always spring up for our salvation...",
+                "Through Christ our Lord.",
+                "All: Amen."
+              ]
+            },
+            {
+              "option": "C (during the Easter Season)",
+              "text": [
+                "Priest: Lord our God, in your mercy be present to your people's prayers, and, for us who recall the wondrous work of our creation...",
+                "Therefore, may this water be for us a memorial of the Baptism we have received...",
+                "Through Christ our Lord.",
+                "All: Amen."
+              ]
+            }
+          ],
+          "sprinklingConclusion": {
+            "priest": "May almighty God cleanse us of our sins, and through the celebration of this Eucharist make us worthy to share at the table of his Kingdom.",
+            "peopleResponse": "Amen."
+          }
+        },
+        "Gloria": {
+          "rubricNote": "This ancient hymn of praise is used on all Sundays outside of Advent and Lent, on solemnities and feasts, and in certain solemn local celebrations.",
+          "text": [
+            "Glory to God in the highest, and on earth peace to people of good will.",
+            "We praise you, we bless you, we adore you, we glorify you, we give you thanks for your great glory...",
+            "Lord God, Lamb of God, Son of the Father, you take away the sins of the world, have mercy on us...",
+            "For you alone are the Holy One, you alone are the Lord, you alone are the Most High, Jesus Christ...",
+            "in the glory of God the Father. Amen."
+          ]
+        },
+        "Collect": {
+          "priestInvitation": "Priest: Let us pray.",
+          "rubricNote": "[After a time of silent prayer, the priest says the Collect, which is different for each Mass.]",
+          "peopleResponse": "Amen."
+        }
+      },
+      "Liturgy of the Word": {
+        "rubricNote": "[sit for the readings, stand for the Gospel]",
+        "FirstReading": {
+          "lectorIntroduction": "Lector: A reading from the Book of… (or the Letter of…; or the Acts of the Apostles).",
+          "conclusionAndResponse": {
+            "lector": "The Word of the Lord.",
+            "peopleResponse": "Thanks be to God!"
+          }
+        },
+        "ResponsorialPsalm": "The choir and/or cantor sing or recite the psalm; the people join in the repeated response.",
+        "SecondReading": {
+          "note": "A second reading is prescribed for Sundays and major feasts, but not for most weekdays or minor feasts.",
+          "lectorIntroduction": "Lector: A reading from…",
+          "conclusionAndResponse": {
+            "lector": "The Word of the Lord.",
+            "peopleResponse": "Thanks be to God!"
+          }
+        },
+        "GospelAcclamation": {
+          "defaultAcclamation": "Alleluia",
+          "lentAcclamation": "During Lent, a different acclamation is used, e.g. 'Praise to you, Lord Jesus Christ, King of endless glory!'"
+        },
+        "Gospel": {
+          "beforeGospel": [
+            {
+              "deaconOrPriest": "The Lord be with you.",
+              "peopleResponse": "And with your spirit."
+            },
+            {
+              "deaconOrPriest": "A reading from the Holy Gospel according to (Matthew, Mark, Luke, or John).",
+              "peopleResponse": "Glory to you, O Lord!"
+            }
+          ],
+          "afterGospel": [
+            {
+              "deaconOrPriest": "The Gospel of the Lord.",
+              "peopleResponse": "Praise to you, Lord Jesus Christ!"
+            }
+          ]
+        },
+        "Homily": "A reflection by the bishop, priest, or deacon, usually focusing on the scriptures or the feast/occasion.",
+        "Creed": {
+          "rubricNote": "[On Sundays and Solemnities, the Niceno-Constantinopolitan Creed is normally recited. The Apostles’ Creed may also be used, especially in Masses with children.]",
+          "NicenoConstantinopolitan": [
+            "I believe in one God, the Father almighty, maker of heaven and earth...",
+            "For us men and for our salvation he came down from heaven [bow during these two lines:]...",
+            "and by the Holy Spirit was incarnate of the Virgin Mary, and became man...",
+            "I believe in the Holy Spirit, the Lord, the giver of life...",
+            "I believe in one, holy, catholic and apostolic Church...",
+            "I confess one baptism for the forgiveness of sins...",
+            "and I look forward to the resurrection of the dead and the life of the world to come. Amen."
+          ],
+          "ApostlesCreed": [
+            "I believe in God, the Father almighty, Creator of heaven and earth...",
+            "and in Jesus Christ, his only Son, our Lord, who was conceived by the Holy Spirit...",
+            "he descended into hell; on the third day he rose again from the dead...",
+            "I believe in the Holy Spirit, the holy catholic Church, the communion of saints...",
+            "the forgiveness of sins, the resurrection of the body, and life everlasting. Amen."
+          ]
+        },
+        "UniversalPrayer": {
+          "otherNames": "Prayer of the Faithful, or Bidding Prayers",
+          "format": [
+            "Lector or other minister: … let us pray to the Lord.",
+            "All: Lord, hear our prayer. [or a similar response after each petition]"
+          ]
+        }
+      },
+      "Liturgy of the Eucharist": {
+        "PresentationPreparationOfGifts": {
+          "priestTextBread": "Blessed are you, Lord God of all creation, for through your goodness we have received the bread we offer you...",
+          "peopleResponse": "Blessed be God for ever.",
+          "priestTextWine": "Blessed are you, Lord God of all creation, for through your goodness we have received the wine we offer you...",
+          "peopleResponse2": "Blessed be God for ever.",
+          "rubricNote": "If there is no singing, the priest may say these prayers aloud and the people respond. If a hymn is sung, the priest may say them inaudibly and the response is omitted."
+        },
+        "InvitationToPrayer": {
+          "priest": "Pray, brethren (brothers and sisters), that my sacrifice and yours may be acceptable to God, the almighty Father.",
+          "peopleResponse": "May the Lord accept the sacrifice at your hands for the praise and glory of his name, for our good, and the good of all his holy Church."
+        },
+        "PrayerOverTheOfferings": {
+          "rubricNote": "The priest sings or says this prayer (proper to each Mass), concluding with:",
+          "peopleResponse": "Amen."
+        },
+        "EucharisticPrayer": {
+          "rubricNote": "The priest may choose from several Eucharistic Prayers. Each includes the Preface, Sanctus, Epiclesis, Institution Narrative, Anamnesis, etc.",
+          "PrefaceDialogue": [
+            {
+              "priest": "The Lord be with you.",
+              "peopleResponse": "And with your spirit."
+            },
+            {
+              "priest": "Lift up your hearts.",
+              "peopleResponse": "We lift them up to the Lord."
+            },
+            {
+              "priest": "Let us give thanks to the Lord our God.",
+              "peopleResponse": "It is right and just."
+            }
+          ],
+          "Sanctus": [
+            "Holy, holy, holy Lord God of hosts.",
+            "Heaven and earth are full of your glory. Hosanna in the highest.",
+            "Blessed is he who comes in the name of the Lord. Hosanna in the highest."
+          ],
+          "MysteryOfFaith": {
+            "priest": "The mystery of faith:",
+            "peopleOptions": [
+              "A – We proclaim your death, O Lord, and profess your Resurrection until you come again.",
+              "B – When we eat this Bread and drink this Cup, we proclaim your death, O Lord, until you come again.",
+              "C – Save us, Savior of the world, for by your Cross and Resurrection you have set us free."
+            ]
+          },
+          "DoxologyGreatAmen": {
+            "priest": "Through him, and with him, and in him… all glory and honor is yours, for ever and ever.",
+            "peopleResponse": "Amen! [often sung]"
+          }
+        },
+        "CommunionRite": {
+          "LordsPrayer": {
+            "priestIntro": "Priest: At the Savior’s command and formed by divine teaching, we dare to say:",
+            "peopleAll": [
+              "Our Father, who art in heaven, hallowed be thy name...",
+              "and lead us not into temptation, but deliver us from evil."
+            ],
+            "priestEmbolism": "Deliver us, Lord, we pray, from every evil...",
+            "peopleDoxology": "For the kingdom, the power, and the glory are yours, now and forever."
+          },
+          "SignOfPeace": {
+            "priestText": "Lord Jesus Christ, who said to your Apostles: Peace I leave you, my peace I give you...",
+            "peopleResponse": "Amen.",
+            "priestFinal": "The Peace of the Lord be with you always.",
+            "peopleResponse2": "And with your spirit.",
+            "deaconOrPriest": "Let us offer each other a sign of peace."
+          },
+          "FractionRite": {
+            "lambOfGod": [
+              "Lamb of God, you take away the sins of the world: have mercy on us.",
+              "Lamb of God, you take away the sins of the world: have mercy on us.",
+              "Lamb of God, you take away the sins of the world: grant us peace."
+            ]
+          },
+          "Communion": {
+            "ecceAgnusDei": [
+              "Priest: Behold the Lamb of God, behold him who takes away the sins of the world...",
+              "All: Lord, I am not worthy that you should enter under my roof, but only say the word and my soul shall be healed."
+            ],
+            "notesOnReception": "The manner of receiving communion differs by region. In the U.S., people typically process to the front, receive standing, and may receive in the hand or on the tongue. Communion may be offered under both species (bread and wine).",
+            "ministerDialogue": [
+              "Communion Minister: The body of Christ. Communicant: Amen.",
+              "Communion Minister: The blood of Christ. Communicant: Amen."
+            ],
+            "communionSong": "During the reception of Communion, an appropriate song or antiphon is sung.",
+            "periodOfSilence": "Afterward, there may be a period of silent prayer or a psalm/song of praise."
+          },
+          "PrayerAfterCommunion": {
+            "priestInvitation": "Priest: Let us pray.",
+            "rubricNote": "After a time of silence (or if silence already observed), the priest says the Prayer after Communion (proper to each Mass).",
+            "peopleResponse": "Amen."
+          }
+        }
+      },
+      "Concluding Rites": {
+        "announcementsEtc": "If there are any announcements, acknowledgements, or reflections, they are best included here.",
+        "FinalBlessing": {
+          "optionA": {
+            "form": "Simple Form",
+            "dialogue": [
+              {
+                "priest": "The Lord be with you.",
+                "peopleResponse": "And with your spirit."
+              },
+              {
+                "priest": "May almighty God bless you, the Father, and the Son, + and the Holy Spirit.",
+                "peopleResponse": "Amen."
+              }
+            ]
+          },
+          "optionB": {
+            "form": "Solemn Blessing",
+            "dialogue": [
+              {
+                "priest": "The Lord be with you.",
+                "peopleResponse": "And with your spirit."
+              },
+              {
+                "deaconOrPriest": "Bow down for the blessing."
+              },
+              {
+                "priestConcluding": "And may the blessing of almighty God, the Father, and the Son, + and the Holy Spirit, come down on you and remain with you forever.",
+                "peopleResponse": "Amen."
+              }
+            ]
+          },
+          "optionC": {
+            "form": "Prayer over the People",
+            "dialogue": [
+              {
+                "priest": "The Lord be with you.",
+                "peopleResponse": "And with your spirit."
+              },
+              {
+                "deaconOrPriest": "Bow down for the blessing."
+              },
+              {
+                "priestConcluding": "And may the blessing of almighty God, the Father, and the Son, + and the Holy Spirit, come down on you and remain with you forever.",
+                "peopleResponse": "Amen."
+              }
+            ]
+          }
+        },
+        "Dismissal": {
+          "deaconOrPriestOptions": [
+            "Go forth, the Mass is ended.",
+            "Go and announce the Gospel of the Lord.",
+            "Go in peace, glorifying the Lord by your life.",
+            "Go in peace."
+          ],
+          "peopleResponse": "Thanks be to God!"
+        },
+        "RecessionalClosingSong": "Although traditional in many places, a final song or instrumental music is not strictly required by the Order of Mass."
+      },
+      "relatedWebpages": [
+        "A Bibliography on the Eucharist - large collection of links (pastoral resources, academic studies).",
+        "Basic Texts for the Catholic Mass (PDF; 2010 & 1975 editions).",
+        "Ordinary of the Mass / Ordinario de la Misa (PDF; Eng/Span).",
+        "The Lectionary for Mass - complete, comparative tables of all readings.",
+        "The Eucharistic Prayers - texts of all approved Eucharistic Prayers.",
+        "Biblical Texts related to the Catholic Mass.",
+        "Thanksgiving in the Bible - focusing on 'Eucharist' and related words.",
+        "Theological Aspects of the Catholic Mass - Thanksgiving, Forgiveness, Participation, Silence.",
+        "General Instruction of the Roman Missal (GIRM) - official text on the USCCB website.",
+        "ICEL - International Commission on English in the Liturgy.",
+        "USCCB - United States Conference of Catholic Bishops."
+      ]
+    }
+  }
+  
